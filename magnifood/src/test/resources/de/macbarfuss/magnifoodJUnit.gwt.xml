@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='de.macbarfuss.magnifood' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/magnifood/greet" class="de.macbarfuss.server.GreetingServiceImpl" />
+
+</module>
