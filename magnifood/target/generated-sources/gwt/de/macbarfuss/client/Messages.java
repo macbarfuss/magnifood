@@ -2,7 +2,7 @@ package de.macbarfuss.client;
 
 /**
  * Interface to represent the messages contained in resource bundle:
- * 	/home/macbarfuss/Development/workspace-indigo/magnifood/src/main/resources/de/macbarfuss/client/Messages.properties'.
+ * 	/home/macbarfuss/git/magnifood/magnifood/src/main/resources/de/macbarfuss/client/Messages.properties'.
  */
 public interface Messages extends com.google.gwt.i18n.client.Messages {
   
