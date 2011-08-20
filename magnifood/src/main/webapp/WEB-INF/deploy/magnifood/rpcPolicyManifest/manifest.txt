@@ -1,3 +1,2 @@
 # Module magnifood
 # RPC service class, partial path of RPC policy file
-de.macbarfuss.client.GreetingService, F9AF1C3181C8177B5CD0F688D6FD2F83.gwt.rpc
