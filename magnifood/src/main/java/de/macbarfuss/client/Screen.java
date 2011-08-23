@@ -20,6 +20,8 @@ public final class Screen {
     private final VerticalPanel vPanel = new VerticalPanel();
     private final FlowPanel buttonBar = new FlowPanel();
 
+    private final Button homeButton = new Button("Home");
+
     private Screen() {
         vPanel.setBorderWidth(1);
         vPanel.setWidth("100%");
@@ -38,7 +40,6 @@ public final class Screen {
         buttonBar.setHeight("50px");
         vPanel.add(buttonBar);
 
-        final Button homeButton = new Button("Home");
         buttonBar.add(homeButton);
         homeButton.addClickHandler(new SwitchScreenHandler(new WelcomeScreen()));
 
@@ -67,6 +68,10 @@ public final class Screen {
     }
 
 // H A N D L E R S
+    public void showHome() {
+        homeButton.click();
+    }
+
     private class LogoutHandler implements ClickHandler {
 
         public LogoutHandler() { }
