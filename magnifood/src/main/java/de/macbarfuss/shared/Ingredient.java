@@ -1,4 +1,4 @@
-package de.macbarfuss.client;
+package de.macbarfuss.shared;
 
 import java.util.ArrayList;
 import java.util.List;

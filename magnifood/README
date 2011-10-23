@@ -36,11 +36,13 @@ free food only. All these people need detailed information of there meals.
 So they all build up their own books of recipes with special hints and calculate
 the amount of carbonhydrates for each portion.
 
-My girlfriend asked me if there is a chance to ease this up and use a software.
-So I decided to take this as an private project.
+One diabetic asked me if there is a chance to ease this up and use a software.
+So I decided to take this as a private project.
 
 Feature list:
   - Manage ingredients
+  - Manage recipes
+  - Print out recipes
   - ... a lot more
 
 Contact me at:

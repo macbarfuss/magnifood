@@ -11,6 +11,9 @@ import com.google.gwt.view.client.ListDataProvider;
 import com.google.gwt.view.client.SingleSelectionModel;
 import com.google.gwt.view.client.TreeViewModel;
 
+import de.macbarfuss.shared.Ingredient;
+import de.macbarfuss.shared.IngredientCategory;
+
 
 
 /**

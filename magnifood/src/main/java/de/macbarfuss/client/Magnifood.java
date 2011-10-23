@@ -7,7 +7,6 @@ public final class Magnifood implements EntryPoint {
     public Magnifood() { }
 
     public void onModuleLoad() {
-        Screen.getInstance().prepareButtonBar();
-        Screen.getInstance().showHome();
+        new StartupScreen();
     }
 }
